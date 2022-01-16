@@ -1,6 +1,8 @@
 # PoCs about security evaluation of SpecBox
 This repository contains the PoCs of spectre attacks, such as Spectre-PHT, Spectre-BTB (also known as Spectre-BTI), Spectre-RSB, Spectre-STL. The goal of the PoCs is to demonstrate the effectiveness of "SpecBox" defense, which is proposed by the paper
-"SpecBox: A Label-Based Transparent Speculation Scheme Against Transient Execution Attacks".
+
+"**SpecBox: A Label-Based Transparent Speculation Scheme Against Transient Execution Attacks**".
+
 The code only works on GEM5 simulator with O3 CPU Model and Ruby Cache System. The contruction of these PoCs refers to the work https://github.com/IAIK/transientfail, so we believe that with a slight modification to the PoC, it can also be reproduced on real world hardwares. (Noticed that although the attack principles has no dependence with specific ISA, some PoCs code includs the X86 "inline assembly" code.)
 
 # Building
