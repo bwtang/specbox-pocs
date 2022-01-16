@@ -20,7 +20,7 @@ $GEM5_DIR/build/X86_MESI_Two_Level/gem5.fast \
   --cpu-type=DerivO3CPU \
   --ruby --num-dirs=1 --network=simple --topology=Mesh_XY --mesh-rows=1
 ```
-In the options, the '-o' option indicates the arguments for the PoC application. It has two parts, the first part (i.e. "5") means the repeat numbers of each attack iteration, the second part (i.e. "this-is-a-secret") means the secret string to transmit.
+In the options, the '-o' option indicates the arguments for the PoC application. It has two parts, the first (i.e. "5") means the repeat numbers of each attack iteration, the second (i.e. "this-is-a-secret") means the secret string to be transmitted in the spectre covert channel.
 
 # Author
 Bowen Tang (tangbowen@ict.ac.cn), a PhD candidate from Institute of Computing Technology, Chinese Academy of Sciences.
